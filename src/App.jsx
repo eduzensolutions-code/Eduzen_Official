@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import AboutSection from './components/AboutSection'
 import ServicesSection from './components/ServicesSection'
 import StatsSection from './components/StatsSection'
+import ContactSection from './components/ContactSection'
+import FoundersNoteSection from './components/FoundersNoteSection'
+import FooterSection from './components/FooterSection'
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <StatsSection />
+      <FoundersNoteSection />
+      <ContactSection />
+      <FooterSection />
     </main>
   )
 }
