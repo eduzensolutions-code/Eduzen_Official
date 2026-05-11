@@ -13,17 +13,37 @@ import {Helmet} from "react-helmet-async"
 function App() {
   return (
     <>
-    <Helmet>
-
+      <Helmet>
+        
         <title>
-          Eduzen Solutions | Workforce Development
+          Eduzen Solutions | Workforce Development & CSR Integration
         </title>
-
+        
         <meta
           name="description"
           content="Eduzen Solutions empowers communities through skilling, workforce development, CSR integration, and livelihood creation initiatives across India."
         />
-
+      
+        <meta
+          property="og:title"
+          content="Eduzen Solutions"
+        />
+      
+        <meta
+          property="og:description"
+          content="Empowering the future-ready workforce across India."
+        />
+      
+        <meta
+          property="og:type"
+          content="website"
+        />
+      
+        <meta
+          property="og:url"
+          content="https://eduzensolutions.in"
+        />
+      
       </Helmet>
     <main className="min-h-screen bg-black">
       <Navbar />
