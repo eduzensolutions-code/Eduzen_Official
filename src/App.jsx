@@ -7,8 +7,24 @@ import ContactSection from './components/ContactSection'
 import FoundersNoteSection from './components/FoundersNoteSection'
 import FooterSection from './components/FooterSection'
 
+
+import {Helmet} from "react-helmet-async"
+
 function App() {
   return (
+    <>
+    <Helmet>
+
+        <title>
+          Eduzen Solutions | Workforce Development
+        </title>
+
+        <meta
+          name="description"
+          content="Eduzen Solutions empowers communities through skilling, workforce development, CSR integration, and livelihood creation initiatives across India."
+        />
+
+      </Helmet>
     <main className="min-h-screen bg-black">
       <Navbar />
       <Hero />
@@ -19,6 +35,7 @@ function App() {
       <ContactSection />
       <FooterSection />
     </main>
+    </>
   )
 }
 
