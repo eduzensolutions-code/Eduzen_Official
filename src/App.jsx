@@ -14,11 +14,17 @@ function App() {
   return (
     <>
       <Helmet>
+
         
         <title>
           Eduzen Solutions | Workforce Development & CSR Integration
         </title>
-        
+
+
+
+
+
+        // Meta tags for SEO and social media sharing
         <meta
           name="description"
           content="Eduzen Solutions empowers communities through skilling, workforce development, CSR integration, and livelihood creation initiatives across India."
