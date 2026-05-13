@@ -10,6 +10,9 @@ import FooterSection from './components/FooterSection'
 
 import {Helmet} from "react-helmet-async"
 
+
+import {Helmet} from "react-helmet-async"
+
 function App() {
   return (
     <>
@@ -61,6 +64,7 @@ function App() {
       <ContactSection />
       <FooterSection />
     </main>
+    </>
     </>
   )
 }
