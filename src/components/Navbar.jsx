@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const navItems = [
-  { label: 'Abouttt', href: '#about' },
+  { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Impact', href: '#impact' },
   { label: 'Partners', href: '#partners' },
