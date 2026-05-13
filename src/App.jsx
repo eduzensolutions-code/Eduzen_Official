@@ -20,7 +20,7 @@ function App() {
 
         
         <title>
-          Eduzen Solutions | Workforce Development & CSR Integration
+          Eduzen Solutions Private Limited | Workforce Development | Official
         </title>
 
 
